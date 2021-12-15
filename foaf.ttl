@@ -33,5 +33,5 @@
         foaf:phone              <tel:076984> ;
         foaf:schoolHomepage     <https://www.finki.ukim.mk/> ;
         foaf:title              "Ms" ;
-        foaf:workInfoHomepage   <https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/Software Engineer> ;
+        foaf:workInfoHomepage   <https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/SoftwareEngineer> ;
         foaf:workplaceHomepage  <https://www.linkedin.com/in/martina-hristoska-28a1861a7/> .
