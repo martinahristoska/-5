@@ -3,35 +3,29 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
-<https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl>
-        a                     foaf:PersonalProfileDocument ;
+<>      a                     foaf:PersonalProfileDocument ;
         admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
         admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
-        foaf:maker            <https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl#me> ;
-        foaf:primaryTopic     <https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl#me> .
+        foaf:maker            <#me> ;
+        foaf:primaryTopic     <#me> .
 
-<https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl#me>
-        a                       foaf:Person ;
+<#me>   a                       foaf:Person ;
         foaf:family_name        "Hristoska" ;
         foaf:givenname          "Martina" ;
         foaf:homepage           <https://www.linkedin.com/in/martina-hristoska-28a1861a7/> ;
         foaf:knows              [ a                  foaf:Person ;
-                                  foaf:mbox_sha1sum  "1ceec8c7d474c55aa6c4bb76960b5b5d7f9bbf1e" ;
-                                  foaf:name          "Ana-Marija Trajceska"
+                                  rdfs:seeAlso       <http://mjovanovikj.com/foaf.ttl#> ;
+                                  foaf:mbox_sha1sum  "973b8d0ce521e5a2a332a71a05eba833ae7eb5f9" ;
+                                  foaf:name          "Milos Jovanovikj"
                                 ] ;
         foaf:knows              [ a                  foaf:Person ;
-                                  foaf:mbox_sha1sum  "1c574b5e2293a744eb6938293fe6380c1fbc3665" ;
-                                  foaf:name          "Simona Joveska"
+                                  rdfs:seeAlso       <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl?fbclid=IwAR3OXixELWHfMH-TZ5EKjIW172rplFcFWvUhOGHBTUZlUOWkgiYxTli1yRQ> ;
+                                  foaf:mbox_sha1sum  "0d0920dbd1fefc79df42a5493d0e137b2456d692" ;
+                                  foaf:name          "Robert Ilievski"
                                 ] ;
-        foaf:knows              [ a                  foaf:Person ;
-                                  foaf:mbox_sha1sum  "af0e260defefaee53d637fc6064db8e3dcb9fbc5" ;
-                                  foaf:name          "Martina Radeska"
-                                ] ;
-        foaf:mbox_sha1sum       "647218f593b5b850c6708a18950ed49185bc2412" ;
+        foaf:mbox_sha1sum       "1604666f52f0dd9fc05998b0a6496b556691ec02" ;
         foaf:name               "Martina Hristoska" ;
-        foaf:nick               "Marte" ;
-        foaf:phone              <tel:076984> ;
+        foaf:phone              <tel:076984967> ;
         foaf:schoolHomepage     <https://www.finki.ukim.mk/> ;
         foaf:title              "Ms" ;
-        foaf:workInfoHomepage   <https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/Engineer> ;
         foaf:workplaceHomepage  <https://www.linkedin.com/in/martina-hristoska-28a1861a7/> .
