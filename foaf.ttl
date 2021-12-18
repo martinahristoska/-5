@@ -3,18 +3,13 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
-<>      a                     foaf:PersonalProfileDocument ;
-        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
-        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
-        foaf:maker            <#me> ;
-        foaf:primaryTopic     <#me> .
-
-<#me>   a                       foaf:Person ;
+<https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl#me>
+        a                       foaf:Person ;
         foaf:family_name        "Hristoska" ;
         foaf:givenname          "Martina" ;
         foaf:homepage           <https://www.linkedin.com/in/martina-hristoska-28a1861a7/> ;
         foaf:knows              [ a                  foaf:Person ;
-                                  rdfs:seeAlso       <https://mjovanovik.com/foaf.ttl#> ;
+                                  rdfs:seeAlso       <http://mjovanovikj.com/foaf.ttl#> ;
                                   foaf:mbox_sha1sum  "973b8d0ce521e5a2a332a71a05eba833ae7eb5f9" ;
                                   foaf:name          "Milos Jovanovikj"
                                 ] ;
@@ -29,3 +24,10 @@
         foaf:schoolHomepage     <https://www.finki.ukim.mk/> ;
         foaf:title              "Ms" ;
         foaf:workplaceHomepage  <https://www.linkedin.com/in/martina-hristoska-28a1861a7/> .
+
+<https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl#me> ;
+        foaf:primaryTopic     <https://raw.githubusercontent.com/martinahristoska/VBS-Lab5/main/foaf.ttl#me> .
