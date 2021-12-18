@@ -9,11 +9,6 @@
         foaf:givenname          "Martina" ;
         foaf:homepage           <https://www.linkedin.com/in/martina-hristoska-28a1861a7/> ;
         foaf:knows              [ a                  foaf:Person ;
-                                  rdfs:seeAlso       <http://mjovanovikj.com/foaf.ttl#> ;
-                                  foaf:mbox_sha1sum  "973b8d0ce521e5a2a332a71a05eba833ae7eb5f9" ;
-                                  foaf:name          "Milos Jovanovikj"
-                                ] ;
-        foaf:knows              [ a                  foaf:Person ;
                                   rdfs:seeAlso       <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl?fbclid=IwAR3OXixELWHfMH-TZ5EKjIW172rplFcFWvUhOGHBTUZlUOWkgiYxTli1yRQ> ;
                                   foaf:mbox_sha1sum  "0d0920dbd1fefc79df42a5493d0e137b2456d692" ;
                                   foaf:name          "Robert Ilievski"
